@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="addsub_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="addsub_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1555105fs"></ZoomEndTime>
+      <Cursor1Time time="23000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="array" fp_name="/addsub_test/A">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/addsub_test/B">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/addsub_test/Subtract">
+      <obj_property name="ElementShortName">Subtract</obj_property>
+      <obj_property name="ObjectShortName">Subtract</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/addsub_test/Result">
+      <obj_property name="ElementShortName">Result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/addsub_test/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/addsub_test/uut/ToBornottoB">
+      <obj_property name="ElementShortName">ToBornottoB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ToBornottoB[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

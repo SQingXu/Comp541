@@ -1,0 +1,16 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab -wto 9d4d1ebd29e6498cbcda930ac49cc321 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot addsub_test_behav xil_defaultlib.addsub_test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.adder4bit
+Compiling module xil_defaultlib.adder8bit
+Compiling module xil_defaultlib.add_sub_8bit
+Compiling module xil_defaultlib.addsub_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot addsub_test_behav

@@ -1,0 +1,13 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+At time    0.00 ns:  A=  0, B=  0, Subtract=0, ToBornottoB=00000000, Result=  0 (00000000)
+At time    6.00 ns:  A= 11, B= 15, Subtract=0, ToBornottoB=00001111, Result= 26 (00011010)
+At time    7.00 ns:  A= 22, B= 30, Subtract=0, ToBornottoB=00011110, Result= 52 (00110100)
+At time    8.00 ns:  A= 33, B= 45, Subtract=0, ToBornottoB=00101101, Result= 78 (01001110)
+At time    9.00 ns:  A= 44, B= 60, Subtract=0, ToBornottoB=00111100, Result=104 (01101000)
+At time   14.00 ns:  A= 50, B= 10, Subtract=1, ToBornottoB=11110101, Result= 40 (00101000)
+At time   15.00 ns:  A= 40, B= 20, Subtract=1, ToBornottoB=11101011, Result= 20 (00010100)
+At time   16.00 ns:  A= 30, B= 30, Subtract=1, ToBornottoB=11100001, Result=  0 (00000000)
+At time   17.00 ns:  A= 20, B= 40, Subtract=1, ToBornottoB=11010111, Result=236 (11101100)
+At time   18.00 ns:  A= 10, B= 50, Subtract=1, ToBornottoB=11001101, Result=216 (11011000)
+$finish called at time : 23 ns : File "/home/siqingxu/Desktop/Comp541/Comp541/Lab2/Lab2.srcs/sim_4/new/addsub_test.sv" Line 51
