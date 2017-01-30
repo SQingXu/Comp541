@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Jan 29 20:57:20 2017
+# Process ID: 10059
+# Current directory: /home/siqingxu/Desktop/Comp541/Comp541/Lab3/Lab3.sim/sim_4/behav
+# Command line: wbtcv -mode batch -source /home/siqingxu/Desktop/Comp541/Comp541/Lab3/Lab3.sim/sim_4/behav/xsim.dir/Lab3_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/siqingxu/Desktop/Comp541/Comp541/Lab3/Lab3.sim/sim_4/behav/webtalk.log
+# Journal file: /home/siqingxu/Desktop/Comp541/Comp541/Lab3/Lab3.sim/sim_4/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/siqingxu/Desktop/Comp541/Comp541/Lab3/Lab3.sim/sim_4/behav/xsim.dir/Lab3_test_behav/webtalk/xsim_webtalk.tcl -notrace

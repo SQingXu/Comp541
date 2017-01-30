@@ -5,7 +5,7 @@ module adder8bit_test();
   wire [7:0] Sum;
   wire Cout;
   
-  adder8bit my8bitadder(A, B, Cin, Sum, Cout); 
+  adder8bit my8bitadder(.A(A), .B(B), .Cin(Cin), .Sum(Sum), .Cout(Cout)); 
   integer i; 
   initial begin
     A = 0;
