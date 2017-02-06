@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../Lab4A.srcs/sources_1/new/CounterMod4.sv"
+sv xil_defaultlib  "../../../Lab4A.srcs/sim_1/new/CounterMod4_test.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,1 @@
+-wto "f70c54aa73664ec0928f67dc95c94838" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "xycounter_test_behav" "xil_defaultlib.xycounter_test" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/siqingxu/Desktop/Comp541/Comp541/Lab4A/Lab4A.srcs/sources_1/new/CounterMod7.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CounterMod7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/siqingxu/Desktop/Comp541/Comp541/Lab4A/Lab4A.srcs/sim_2/new/CounterMod7_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CounterMod7_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/siqingxu/Desktop/Comp541/Comp541/Lab4A/Lab4A.sim/sim_2/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
