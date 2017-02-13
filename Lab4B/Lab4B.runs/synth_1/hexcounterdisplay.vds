@@ -1,0 +1,281 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed Feb  8 23:22:54 2017
+# Process ID: 8909
+# Current directory: /home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.runs/synth_1
+# Command line: vivado -log hexcounterdisplay.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hexcounterdisplay.tcl
+# Log file: /home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.runs/synth_1/hexcounterdisplay.vds
+# Journal file: /home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source hexcounterdisplay.tcl -notrace
+Command: synth_design -top hexcounterdisplay -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8913 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1057.469 ; gain = 120.086 ; free physical = 941 ; free virtual = 3274
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hexcounterdisplay' [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/sources_1/new/hexcounterdisplay.sv:24]
+INFO: [Synth 8-638] synthesizing module 'counter1second' [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/sources_1/new/counter1second.sv:24]
+INFO: [Synth 8-256] done synthesizing module 'counter1second' (1#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/sources_1/new/counter1second.sv:24]
+INFO: [Synth 8-638] synthesizing module 'hexto7seg' [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/sources_1/new/hexto7seg.sv:24]
+INFO: [Synth 8-256] done synthesizing module 'hexto7seg' (2#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/sources_1/new/hexto7seg.sv:24]
+INFO: [Synth 8-256] done synthesizing module 'hexcounterdisplay' (3#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/sources_1/new/hexcounterdisplay.sv:24]
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[7] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[6] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[5] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[4] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[3] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[2] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[1] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1097.938 ; gain = 160.555 ; free physical = 897 ; free virtual = 3233
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1097.938 ; gain = 160.555 ; free physical = 896 ; free virtual = 3232
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/constrs_1/new/segdisplay.xdc]
+Finished Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/constrs_1/new/segdisplay.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/constrs_1/new/segdisplay.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/hexcounterdisplay_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/hexcounterdisplay_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/constrs_1/new/clock.xdc]
+Finished Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/constrs_1/new/clock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.srcs/constrs_1/new/clock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/hexcounterdisplay_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/hexcounterdisplay_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1392.727 ; gain = 0.000 ; free physical = 685 ; free virtual = 3053
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 683 ; free virtual = 3051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 683 ; free virtual = 3051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 683 ; free virtual = 3051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 680 ; free virtual = 3048
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[7] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[6] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[5] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[4] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[3] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[2] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[1] driven by constant 1
+WARNING: [Synth 8-3917] design hexcounterdisplay has port digitselect[0] driven by constant 0
+WARNING: [Synth 8-3332] Sequential element (clock_counter/value_reg[30]) is unused and will be removed from module hexcounterdisplay.
+WARNING: [Synth 8-3332] Sequential element (clock_counter/value_reg[31]) is unused and will be removed from module hexcounterdisplay.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 663 ; free virtual = 3032
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 623 ; free virtual = 2999
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 614 ; free virtual = 2991
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2981
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2981
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2981
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2981
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2981
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    30|
+|4     |LUT4   |     7|
+|5     |FDRE   |    30|
+|6     |IBUF   |     1|
+|7     |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+---------------+------+
+|      |Instance        |Module         |Cells |
++------+----------------+---------------+------+
+|1     |top             |               |    93|
+|2     |  clock_counter |counter1second |    68|
+|3     |  x_seg         |hexto7seg      |     7|
++------+----------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.727 ; gain = 455.344 ; free physical = 604 ; free virtual = 2980
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1392.727 ; gain = 80.465 ; free physical = 604 ; free virtual = 2980
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1392.734 ; gain = 455.352 ; free physical = 606 ; free virtual = 2982
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1392.734 ; gain = 387.848 ; free physical = 604 ; free virtual = 2981
+INFO: [Common 17-1381] The checkpoint '/home/siqingxu/Desktop/Comp541/Comp541/Lab4B/Lab4B.runs/synth_1/hexcounterdisplay.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1416.738 ; gain = 0.000 ; free physical = 603 ; free virtual = 2981
+INFO: [Common 17-206] Exiting Vivado at Wed Feb  8 23:23:42 2017...
