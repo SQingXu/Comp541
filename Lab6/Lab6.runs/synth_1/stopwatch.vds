@@ -1,0 +1,330 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Feb 26 11:54:42 2017
+# Process ID: 6047
+# Current directory: /home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.runs/synth_1
+# Command line: vivado -log stopwatch.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source stopwatch.tcl
+# Log file: /home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.runs/synth_1/stopwatch.vds
+# Journal file: /home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source stopwatch.tcl -notrace
+Command: synth_design -top stopwatch -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6051 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1057.469 ; gain = 120.086 ; free physical = 1127 ; free virtual = 3962
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'stopwatch' [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/stopwatch.sv:24]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/debouncer.sv:24]
+	Parameter N bound to: 19 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (1#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/debouncer.sv:24]
+INFO: [Synth 8-638] synthesizing module 'fsm' [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/fsm.sv:24]
+INFO: [Synth 8-256] done synthesizing module 'fsm' (2#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/fsm.sv:24]
+INFO: [Synth 8-638] synthesizing module 'updowncounter' [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/updowncounter.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'updowncounter' (3#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/updowncounter.sv:23]
+INFO: [Synth 8-638] synthesizing module 'display8digit' [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/display8digit.sv:24]
+INFO: [Synth 8-638] synthesizing module 'hexto7seg' [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/imports/new/hexto7seg.sv:24]
+INFO: [Synth 8-256] done synthesizing module 'hexto7seg' (4#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/imports/new/hexto7seg.sv:24]
+INFO: [Synth 8-256] done synthesizing module 'display8digit' (5#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/display8digit.sv:24]
+INFO: [Synth 8-256] done synthesizing module 'stopwatch' (6#1) [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/stopwatch.sv:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1097.938 ; gain = 160.555 ; free physical = 1086 ; free virtual = 3921
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1097.938 ; gain = 160.555 ; free physical = 1086 ; free virtual = 3921
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/constrs_1/new/stopwatch.xdc]
+Finished Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/constrs_1/new/stopwatch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/constrs_1/new/stopwatch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/stopwatch_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/stopwatch_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1406.734 ; gain = 0.000 ; free physical = 902 ; free virtual = 3736
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 901 ; free virtual = 3736
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 901 ; free virtual = 3736
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 901 ; free virtual = 3736
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm'
+INFO: [Synth 8-5545] ROM "Output" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/updowncounter.sv:32]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  State1 |                              000 | 00000000000000000000000000000000
+                  State2 |                              001 | 00000000000000000000000000000001
+                  State5 |                              010 | 00000000000000000000000000000100
+                  State6 |                              011 | 00000000000000000000000000000101
+                  State7 |                              100 | 00000000000000000000000000000110
+                  State8 |                              101 | 00000000000000000000000000000111
+                  State3 |                              110 | 00000000000000000000000000000010
+                  State4 |                              111 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 892 ; free virtual = 3727
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+	  21 Input      3 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	  21 Input      3 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+Module display8digit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[19]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[20]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[21]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[22]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[23]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[24]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[25]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[26]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[27]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[28]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[29]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[30]) is unused and will be removed from module stopwatch.
+WARNING: [Synth 8-3332] Sequential element (my8display/count_reg[31]) is unused and will be removed from module stopwatch.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 876 ; free virtual = 3711
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 847 ; free virtual = 3682
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 832 ; free virtual = 3667
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3659
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3659
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3659
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    33|
+|3     |LUT1   |    80|
+|4     |LUT2   |    52|
+|5     |LUT3   |    58|
+|6     |LUT4   |     7|
+|7     |LUT6   |     9|
+|8     |MUXF7  |     4|
+|9     |FDRE   |   135|
+|10    |IBUF   |     4|
+|11    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+--------------+------+
+|      |Instance     |Module        |Cells |
++------+-------------+--------------+------+
+|1     |top          |              |   399|
+|2     |  d1         |debouncer     |    47|
+|3     |  d2         |debouncer_0   |    47|
+|4     |  d3         |debouncer_1   |    47|
+|5     |  my8display |display8digit |    51|
+|6     |  mycounter  |updowncounter |    70|
+|7     |  myfsm      |fsm           |   116|
++------+-------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.734 ; gain = 469.352 ; free physical = 824 ; free virtual = 3658
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1406.734 ; gain = 80.465 ; free physical = 831 ; free virtual = 3666
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.742 ; gain = 469.359 ; free physical = 831 ; free virtual = 3666
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.742 ; gain = 401.855 ; free physical = 827 ; free virtual = 3662
+INFO: [Common 17-1381] The checkpoint '/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.runs/synth_1/stopwatch.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1430.746 ; gain = 0.000 ; free physical = 826 ; free virtual = 3661
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 26 11:55:21 2017...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Feb 26 11:55:21 2017
+# Process ID: 6141
+# Current directory: /home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.runs/impl_1
+# Command line: vivado -log stopwatch.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source stopwatch.tcl -notrace
+# Log file: /home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.runs/impl_1/stopwatch.vdi
+# Journal file: /home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source stopwatch.tcl -notrace

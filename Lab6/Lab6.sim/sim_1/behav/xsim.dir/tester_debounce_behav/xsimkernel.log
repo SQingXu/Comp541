@@ -1,0 +1,7 @@
+Running: xsim.dir/tester_debounce_behav/xsimk -simmode gui -wdb tester_debounce_behav.wdb -simrunnum 0 -socket 49332
+Design successfully loaded
+Design Loading Memory Usage: 49568 KB (Peak: 49624 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 135404 KB (Peak: 196840 KB)
+Simulation CPU Usage: 10 ms

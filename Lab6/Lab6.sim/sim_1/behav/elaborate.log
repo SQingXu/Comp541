@@ -1,0 +1,13 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab -wto f4aa74ea60544f479f94895ee8b8f250 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tester_debounce_behav xil_defaultlib.tester_debounce xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debouncer(N=4)
+Compiling module xil_defaultlib.tester_debounce
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tester_debounce_behav

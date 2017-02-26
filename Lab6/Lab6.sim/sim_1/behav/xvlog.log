@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sources_1/new/debouncer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.srcs/sim_1/new/tester_debounce.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tester_debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/siqingxu/Desktop/Comp541/Comp541/Lab6/Lab6.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
