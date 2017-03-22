@@ -1,0 +1,546 @@
+
+*** Running vivado
+    with args -log io_demo.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source io_demo.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source io_demo.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 45 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/keyboard.xdc]
+Finished Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/keyboard.xdc]
+Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/sounds.xdc]
+Finished Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/sounds.xdc]
+Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc]
+WARNING: [Vivado 12-584] No ports matched 'segments[7]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[7]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[6]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[6]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[5]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[5]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[4]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[4]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[3]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[3]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[2]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[2]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[1]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[1]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[0]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'segments[0]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[0]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[0]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[1]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[1]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[2]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[2]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[3]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[3]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[4]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[4]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[5]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[5]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[6]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[6]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[7]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'digitselect[7]'. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/soundaccel.xdc]
+Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/iodemo.xdc]
+Finished Parsing XDC File [/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.srcs/constrs_1/new/iodemo.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1237.078 ; gain = 239.086 ; free physical = 1082 ; free virtual = 3669
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.42 . Memory (MB): peak = 1291.094 ; gain = 54.016 ; free physical = 1061 ; free virtual = 3648
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 24f68110e
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 15a8bcec9
+
+Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1728.523 ; gain = 0.000 ; free physical = 712 ; free virtual = 3299
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 7 cells.
+Phase 2 Constant propagation | Checksum: 185c0f059
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1728.523 ; gain = 0.000 ; free physical = 712 ; free virtual = 3299
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 118 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 15f880a9f
+
+Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.22 . Memory (MB): peak = 1728.523 ; gain = 0.000 ; free physical = 712 ; free virtual = 3299
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 15f880a9f
+
+Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.26 . Memory (MB): peak = 1728.523 ; gain = 0.000 ; free physical = 712 ; free virtual = 3299
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1728.523 ; gain = 0.000 ; free physical = 712 ; free virtual = 3299
+Ending Logic Optimization Task | Checksum: 15f880a9f
+
+Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.27 . Memory (MB): peak = 1728.523 ; gain = 0.000 ; free physical = 712 ; free virtual = 3299
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 15f880a9f
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1728.523 ; gain = 0.000 ; free physical = 712 ; free virtual = 3299
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 32 Warnings, 32 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1728.523 ; gain = 491.445 ; free physical = 712 ; free virtual = 3299
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1752.535 ; gain = 0.000 ; free physical = 711 ; free virtual = 3299
+INFO: [Common 17-1381] The checkpoint '/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/impl_1/io_demo_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/impl_1/io_demo_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.539 ; gain = 0.000 ; free physical = 690 ; free virtual = 3278
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.539 ; gain = 0.000 ; free physical = 690 ; free virtual = 3278
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 59b206e3
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.91 . Memory (MB): peak = 1782.539 ; gain = 22.000 ; free physical = 689 ; free virtual = 3276
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: 7496967b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1785.551 ; gain = 25.012 ; free physical = 682 ; free virtual = 3269
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 7496967b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1785.551 ; gain = 25.012 ; free physical = 682 ; free virtual = 3269
+Phase 1 Placer Initialization | Checksum: 7496967b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1785.551 ; gain = 25.012 ; free physical = 682 ; free virtual = 3269
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: e2da84a3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 680 ; free virtual = 3267
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: e2da84a3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 680 ; free virtual = 3267
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1910dfbc1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 680 ; free virtual = 3267
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 15f11a1f6
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 680 ; free virtual = 3267
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 12ca8e889
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 680 ; free virtual = 3267
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 10e40990f
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 680 ; free virtual = 3267
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 19c3792db
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 675 ; free virtual = 3262
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 1c9255250
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 675 ; free virtual = 3262
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1c9255250
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 675 ; free virtual = 3262
+Phase 3 Detail Placement | Checksum: 1c9255250
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 675 ; free virtual = 3262
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=2.352. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1c3fea9c9
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 674 ; free virtual = 3261
+Phase 4.1 Post Commit Optimization | Checksum: 1c3fea9c9
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 674 ; free virtual = 3261
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1c3fea9c9
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 674 ; free virtual = 3261
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1c3fea9c9
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 674 ; free virtual = 3261
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 24ec8539f
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 674 ; free virtual = 3261
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 24ec8539f
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 674 ; free virtual = 3261
+Ending Placer Task | Checksum: 1944e289a
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 1809.562 ; gain = 49.023 ; free physical = 674 ; free virtual = 3261
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 32 Warnings, 32 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1809.562 ; gain = 0.000 ; free physical = 672 ; free virtual = 3261
+INFO: [Common 17-1381] The checkpoint '/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/impl_1/io_demo_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.23 . Memory (MB): peak = 1809.562 ; gain = 0.000 ; free physical = 673 ; free virtual = 3260
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1809.562 ; gain = 0.000 ; free physical = 672 ; free virtual = 3260
+report_control_sets: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1809.562 ; gain = 0.000 ; free physical = 672 ; free virtual = 3259
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+Checksum: PlaceDB: c1c11634 ConstDB: 0 ShapeSum: d28d1266 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: a59832c9
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1905.227 ; gain = 95.664 ; free physical = 534 ; free virtual = 3122
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: a59832c9
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1905.227 ; gain = 95.664 ; free physical = 534 ; free virtual = 3122
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: a59832c9
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1905.227 ; gain = 95.664 ; free physical = 519 ; free virtual = 3107
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: a59832c9
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1905.227 ; gain = 95.664 ; free physical = 519 ; free virtual = 3107
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: a151ddfa
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.475  | TNS=0.000  | WHS=-0.122 | THS=-7.015 |
+
+Phase 2 Router Initialization | Checksum: 110884d8f
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1262ab19f
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 41
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: ab4f4155
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.684  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1cb917867
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 245c63c22
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.684  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1d62c9fd0
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+Phase 4 Rip-up And Reroute | Checksum: 1d62c9fd0
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 1d62c9fd0
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1d62c9fd0
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+Phase 5 Delay and Skew Optimization | Checksum: 1d62c9fd0
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 16c0aebbc
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.781  | TNS=0.000  | WHS=0.103  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1ada948ac
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+Phase 6 Post Hold Fix | Checksum: 1ada948ac
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0550551 %
+  Global Horizontal Routing Utilization  = 0.0674197 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 207f69f6c
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 207f69f6c
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 504 ; free virtual = 3092
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1edf94e32
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 505 ; free virtual = 3093
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.781  | TNS=0.000  | WHS=0.103  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1edf94e32
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 505 ; free virtual = 3093
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.227 ; gain = 106.664 ; free physical = 505 ; free virtual = 3093
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 32 Warnings, 32 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1934.117 ; gain = 124.555 ; free physical = 504 ; free virtual = 3092
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1942.027 ; gain = 0.000 ; free physical = 503 ; free virtual = 3092
+INFO: [Common 17-1381] The checkpoint '/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/impl_1/io_demo_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/impl_1/io_demo_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 4 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/impl_1/io_demo_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file io_demo_power_routed.rpt -pb io_demo_power_summary_routed.pb -rpx io_demo_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+63 Infos, 32 Warnings, 32 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: write_bitstream -force -no_partial_bitfile io_demo.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (CFGBVS-1) Missing CFGBVS and CONFIG_VOLTAGE Design Properties - Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./io_demo.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed Mar 22 00:49:58 2017. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+71 Infos, 33 Warnings, 32 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2281.391 ; gain = 275.312 ; free physical = 166 ; free virtual = 2758
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file io_demo.hwdef
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 22 00:49:58 2017...

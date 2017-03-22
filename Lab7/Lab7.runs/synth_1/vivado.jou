@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed Mar 22 00:47:56 2017
+# Process ID: 16680
+# Current directory: /home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/synth_1
+# Command line: vivado -log io_demo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source io_demo.tcl
+# Log file: /home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/synth_1/io_demo.vds
+# Journal file: /home/siqingxu/Desktop/Comp541/Comp541/Lab7/Lab7.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source io_demo.tcl -notrace
