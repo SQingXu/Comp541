@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../Lab8.srcs/sources_1/new/controller.sv"
+sv xil_defaultlib  "../../../Lab8.srcs/sim_2/new/controller_test.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,3 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+$finish called at time : 19 ns : File "/home/siqingxu/Desktop/Comp541/Comp541/Lab8/Lab8.srcs/sim_1/new/datapath_test.sv" Line 94

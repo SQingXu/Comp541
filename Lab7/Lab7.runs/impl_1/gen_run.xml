@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1490158076">
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-DRC" Name="io_demo.drc"/>
-  <File Type="BG-BGN" Name="io_demo.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="io_demo.sysdef"/>
-  <File Type="BITSTR-MMI" Name="io_demo.mmi"/>
-  <File Type="BITSTR-BMM" Name="io_demo_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="io_demo.nky"/>
-  <File Type="BITSTR-RBT" Name="io_demo.rbt"/>
-  <File Type="BITSTR-MSK" Name="io_demo.msk"/>
-  <File Type="BG-BIN" Name="io_demo.bin"/>
-  <File Type="BG-BIT" Name="io_demo.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="io_demo_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="io_demo_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="io_demo_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="io_demo_postroute_physopt_bb.dcp"/>
+  <File Type="PA-TCL" Name="io_demo.tcl"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="io_demo_postplace_pwropt.dcp"/>
+  <File Type="INIT-TIMING" Name="io_demo_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="io_demo_opt.dcp"/>
+  <File Type="OPT-DRC" Name="io_demo_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="io_demo_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="io_demo.hwdef"/>
+  <File Type="OPT-TIMING" Name="io_demo_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="io_demo_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="io_demo_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="io_demo_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="io_demo_placed.dcp"/>
+  <File Type="PLACE-IO" Name="io_demo_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="io_demo_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="io_demo_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="io_demo_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="io_demo_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="io_demo_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="io_demo_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="io_demo_timing_summary_placed.rpt"/>
+  <File Type="RDI-RDI" Name="io_demo.vdi"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="io_demo_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="io_demo_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="io_demo_drc_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="io_demo_postroute_physopt.dcp"/>
-  <File Type="ROUTE-CLK" Name="io_demo_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="io_demo_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="io_demo_timing_summary_routed.rpx"/>
+  <File Type="BG-BIT" Name="io_demo.bit"/>
+  <File Type="ROUTE-DCP" Name="io_demo_routed.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="io_demo_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIN" Name="io_demo.bin"/>
   <File Type="ROUTE-TIMING-PB" Name="io_demo_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="io_demo_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-MSK" Name="io_demo.msk"/>
+  <File Type="ROUTE-TIMING-RPX" Name="io_demo_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="io_demo.rbt"/>
+  <File Type="ROUTE-SIMILARITY" Name="io_demo_incremental_reuse_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="io_demo.nky"/>
+  <File Type="ROUTE-CLK" Name="io_demo_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="io_demo_postroute_physopt_bb.dcp"/>
+  <File Type="BG-DRC" Name="io_demo.drc"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="io_demo_routed_bb.dcp"/>
+  <File Type="BITSTR-MMI" Name="io_demo.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="io_demo_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BG-BGN" Name="io_demo.bgn"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="io_demo_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="io_demo.sysdef"/>
+  <File Type="BITSTR-BMM" Name="io_demo_bd.bmm"/>
   <File Type="ROUTE-STATUS-PB" Name="io_demo_route_status.pb"/>
   <File Type="ROUTE-STATUS" Name="io_demo_route_status.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="io_demo_power_routed.rpx"/>
   <File Type="ROUTE-PWR-SUM" Name="io_demo_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="io_demo_power_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="io_demo_methodology_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="io_demo_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="io_demo_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-PWR" Name="io_demo_power_routed.rpt"/>
   <File Type="ROUTE-DRC-RPX" Name="io_demo_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="io_demo_methodology_drc_routed.pb"/>
   <File Type="ROUTE-DRC-PB" Name="io_demo_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="io_demo_methodology_drc_routed.rpt"/>
   <File Type="ROUTE-DRC" Name="io_demo_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="io_demo_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="io_demo_routed.dcp"/>
   <File Type="ROUTE-ERROR-DCP" Name="io_demo_routed_error.dcp"/>
   <File Type="PHYSOPT-TIMING" Name="io_demo_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="io_demo_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="io_demo_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="io_demo_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="RDI-RDI" Name="io_demo.vdi"/>
-  <File Type="PLACE-TIMING" Name="io_demo_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="io_demo_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="io_demo_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="io_demo_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="io_demo_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="io_demo_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="io_demo_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="io_demo_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="io_demo_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="io_demo_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="io_demo_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="io_demo_pwropt.dcp"/>
-  <File Type="OPT-TIMING" Name="io_demo_timing_summary_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="io_demo.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="io_demo_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="io_demo_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="io_demo_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="io_demo_timing_summary_init.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="io_demo_postplace_pwropt.dcp"/>
-  <File Type="PA-TCL" Name="io_demo.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/sources/SPI_If.vhd">

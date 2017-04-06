@@ -1,0 +1,20 @@
+0.6
+2016.4
+Dec 14 2016
+22:45:39
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.sim/sim_1/behav/glbl.v,1481753704,verilog,,,,glbl,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sim_1/new/tester_sqr.sv,1491448392,systemVerilog,,,,mips_test_sqr;selfcheck,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/ALU.sv,1490499816,systemVerilog,,,,ALU,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/adder.sv,1485733781,systemVerilog,,,,adder,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/addsub.sv,1485734737,systemVerilog,,,,addsub,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/comparator.sv,1485740565,systemVerilog,,,,comparator,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/controller.sv,1490588272,systemVerilog,,,,controller,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/datapath.sv,1491451013,systemVerilog,,,,datapath,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/fulladder.sv,1484496073,systemVerilog,,,,fulladder,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/logical.sv,1485735685,systemVerilog,,,,logical,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/register.sv,1490500866,systemVerilog,,,,register,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/imports/new/shifter.sv,1485736813,systemVerilog,,,,shifter,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/new/dmem.sv,1491436967,systemVerilog,,,,dmem,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/new/imem.sv,1491438249,systemVerilog,,,,imem,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/new/mips.sv,1491446845,systemVerilog,,,,mips,,,,,,,,
+/home/siqingxu/Desktop/Comp541/Comp541/Lab9/Lab9.srcs/sources_1/new/top.sv,1491448041,systemVerilog,,,,top,,,,,,,,
